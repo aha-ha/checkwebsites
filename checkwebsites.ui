@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WebsiteChecker</class>
+ <widget class="QMainWindow" name="WebsiteChecker">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Website Checker</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Downloads/AracoLogo.png</normaloff>../../Downloads/AracoLogo.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>0</y>
+      <width>191</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>WhatsThisCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Ist die Website online?</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>130</y>
+      <width>80</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Testen!</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="prg">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>180</y>
+      <width>118</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>WaitCursor</cursorShape>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="url">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>80</y>
+      <width>201</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>https://example.org</string>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
